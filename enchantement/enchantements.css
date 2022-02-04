@@ -1,13 +1,25 @@
 body {
-    background: url(../images/mc.png) no-repeat center fixed;
-    -webkit-background-size: cover; 
-      background-size: cover;
-    margin: 0%;
-    
-    }
-    .baretop{
-      background-image: url(../images/blocterre.jpg);
-      padding: top;
-      width : 1680px;
-      height : 150px;
-    }
+  background: url(../images/mc.png) no-repeat center fixed;
+  -webkit-background-size: cover; 
+  background-size: cover;
+  margin: 0%;
+  }
+
+.baretop{
+  background-image: url(../images/blocterre.jpg);
+  padding: top;
+  width : 1680px;
+  height : 150px;
+}
+
+
+#h{
+  margin-top: 1.5%;
+  width: 100px;
+  height :100px;
+}
+
+#p{
+  width: 100px;
+  height : 100px;
+}

@@ -5,3 +5,11 @@ background: url(../images/mc.png) no-repeat center fixed;
 
 
 }
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: url(../images/header.png) repeat-x fixed top;
+
+}
+

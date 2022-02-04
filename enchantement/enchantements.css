@@ -10,6 +10,7 @@ body {
   padding: top;
   width : 1680px;
   height : 150px;
+  
 }
 
 
@@ -22,4 +23,8 @@ body {
 #p{
   width: 100px;
   height : 100px;
+}
+#m{
+ text-align: center ;
+ padding-top: 0%;
 }

@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
 <<<<<<< Updated upstream:potions/potions.css
     background: url(../images/mc.png) no-repeat center fixed;
     -webkit-background-size: cover; 
@@ -24,3 +25,14 @@ background: url(images/mc.png) no-repeat center fixed;
 
 }
 >>>>>>> Stashed changes:style.css
+=======
+  background: url(../images/mc.png) no-repeat center fixed;
+  -webkit-background-size: cover; 
+  background-size: cover;
+    }
+
+p {
+  font-family: 'Noto Sans';
+
+}
+>>>>>>> master

@@ -1,7 +1,26 @@
 body {
+<<<<<<< Updated upstream:potions/potions.css
     background: url(../images/mc.png) no-repeat center fixed;
     -webkit-background-size: cover; 
       background-size: cover;
     
     
     }
+=======
+background: url(images/mc.png) no-repeat center fixed;
+-webkit-background-size: cover; 
+  background-size: cover;
+
+
+}
+
+#header {
+
+  height: 90px;
+  margin: 0;
+  background : url('images/header.png') repeat-x;
+  text-align: center;
+
+
+}
+>>>>>>> Stashed changes:style.css

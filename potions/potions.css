@@ -40,9 +40,20 @@ body {
   height: 150px;
 }
 
+#body {
+  padding: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 20px;
+  text-align: left justify top;
+  
+}
+
 p {
   font-family: 'Noto Sans';
-  
 
 }
 

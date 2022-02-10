@@ -19,10 +19,24 @@ body {
    margin-left: auto;
    margin-right: auto;
    width: 600px;
-   background-color: rgb(255, 255, 255);
+   background-color: white;
    opacity: 0.8;
    border-radius: 20px;
    text-align: left justify top;
+   margin-bottom: 100px;
    
 }
 
+#livre {
+  float: left;
+  position: absolute;
+  left: 550px;
+  top: 870px;
+}
+
+#potion {
+  float: right;
+  position: absolute;
+  right: 550px;
+  top: 840px;
+}

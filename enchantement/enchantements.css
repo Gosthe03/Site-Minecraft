@@ -3,16 +3,19 @@ body {
   -webkit-background-size: cover; 
   background-size: cover;
   margin: 0%;
-  }
+}
 
 .baretop{
   background-image: url(../images/blocterre.jpg);
   padding: top;
   width : 1680px;
+<<<<<<< Updated upstream
   height : 150px;
   
+=======
+  height : 150px; 
+>>>>>>> Stashed changes
 }
-
 
 #h{
   margin-top: 1.5%;

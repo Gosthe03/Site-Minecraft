@@ -23,8 +23,26 @@ body {
   height : 90px;
 }
 
+#p {
+  padding-left: 400px;
+}
+
+#background{
+  background-image: url(../images/roche.png);
+  width: 200px;
+  height: 2000px;
+  float: left;
+}
+.ep{
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 150px;
+  height: 150px;
+}
+
 p {
   font-family: 'Noto Sans';
+  
 
 }
 

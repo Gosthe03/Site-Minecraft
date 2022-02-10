@@ -46,11 +46,22 @@ body {
 }
 .ept{
   font-size: 25px;
-  padding: 4.5%;
+  padding: 3.5%;
   margin-left: auto;
   margin-right: auto;
   width: 600px;
   background-color: white;
+  opacity: 0.8;
+  border-radius: 20px;
+  text-align: left justify top;
+}
+.le{
+  font-size: 25px;
+  padding: 3.5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  background-color: limegreen;
   opacity: 0.8;
   border-radius: 20px;
   text-align: left justify top;

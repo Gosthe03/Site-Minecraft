@@ -22,7 +22,24 @@ body {
   width: 100px;
   height : 100px;
 }
-#m{
- text-align: center ;
- padding-top: 0%;
+
+#e {
+  padding-left: 210px;
+}
+
+#r{
+  background-repeat: repeat;
+
+}
+
+#background{
+  background-image: url(../images/roche.png);
+  width: 200px;
+  height: 2000px;
+}
+.ep{
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 150px;
+  height: 150px; 
 }

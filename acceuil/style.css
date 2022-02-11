@@ -15,28 +15,66 @@ body {
 }
 
 #body {
-   padding: 10%;
+   padding: 7%;
+   padding-bottom: 20%;
    margin-left: auto;
    margin-right: auto;
-   width: 600px;
    background-color: white;
    opacity: 0.8;
    border-radius: 20px;
    text-align: left justify top;
-   margin-bottom: 100px;
+   position: absolute;
+   left: 500px;
+   right: 500px;
+   top: 300px;
+   font-size: 30px;
    
+}
+
+#body::selection {
+  background-color: lightgreen;
+}
+
+
+#en {
+  float: left;
+  position: absolute;
+  left: 550px;
+  top: 1000px;
+  min-width: 20em;
+
 }
 
 #livre {
   float: left;
   position: absolute;
-  left: 550px;
-  top: 870px;
+  left: 800px;
+  top: 1150px;
+  min-width: 20em;
+}
+
+#livre:hover {
+  border: solid 2px  rgb(174, 0, 255);
+  border-radius: 20px;
+}
+
+#pot {
+  float: right;
+  position: absolute;
+  right: 700px;
+  top: 1000px;
+  min-width: 20em;
 }
 
 #potion {
   float: right;
   position: absolute;
-  right: 550px;
-  top: 840px;
+  right: 800px;
+  top: 1150px;
+  min-width: 20em;
+}
+
+#potion:hover {
+  border: solid 2px rgb(0, 255, 213);
+  border-radius: 15px;
 }

@@ -41,14 +41,14 @@ body {
 }
 
 #body {
-  padding: 10%;
+  padding: 7.5%;
   margin-left: auto;
   margin-right: auto;
   width: 400px;
   background-color: white;
   opacity: 0.9;
   border-radius: 20px;
-  text-align: left justify top;
+  text-align: center justify top;
   
 }
 

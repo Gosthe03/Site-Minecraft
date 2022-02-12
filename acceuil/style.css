@@ -14,6 +14,32 @@ body {
   
 }
 
+#headerlivre {
+  padding: 10px;
+  padding-top: 35px;
+  padding-bottom: 36px;
+  border: solid 3px grey;
+  text-align: center;
+  width: 100px;
+  position: absolute;
+  right: 123px;
+  top: 0px;
+  border-top: 0px;
+}
+
+#headerpotion {
+  padding: 10px;
+  padding-top: 35px;
+  padding-bottom: 36px;
+  border: solid 3px grey;
+  text-align: center;
+  width: 100px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border-top: 0px;
+}
+
 #body {
    padding: 7%;
    padding-bottom: 20%;
@@ -22,12 +48,12 @@ body {
    background-color: white;
    opacity: 0.8;
    border-radius: 20px;
-   text-align: left justify top;
+   text-align: justify;
    position: absolute;
-   left: 450px;
-   right: 450px;
+   left: 200px;
+   right: 200px;
    top: 300px;
-   font-size: 30px;
+   font-size: 20px;
    
 }
 
@@ -39,18 +65,19 @@ body {
 #en {
   float: left;
   position: absolute;
-  left: 550px;
-  top: 1000px;
-  min-width: 20em;
-
+  left: 210px;
+  top: 800px;
+  min-width: 7em;
+  width: 500px;
+  
 }
 
 #livre {
   float: left;
   position: absolute;
-  left: 800px;
-  top: 1150px;
-  min-width: 20em;
+  left: 400px;
+  top: 880px;
+  min-width: 7em;
 }
 
 #livre:hover {
@@ -61,17 +88,19 @@ body {
 #pot {
   float: right;
   position: absolute;
-  right: 700px;
-  top: 1000px;
-  min-width: 20em;
+  right: 230px;
+  top: 800px;
+  min-width: 7em;
+  width: 300px;
 }
 
 #potion {
   float: right;
   position: absolute;
-  right: 800px;
-  top: 1150px;
-  min-width: 20em;
+  right: 320px;
+  top: 870px;
+  min-width: 7em;
+  width: 130px;
 }
 
 #potion:hover {

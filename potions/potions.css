@@ -62,3 +62,13 @@ li {
 font-family: 'Noto Sans';
 
 }
+
+body{
+  cursor: url('sword.cur'), pointer;
+}
+img{
+  cursor: url('pickaxe.cur'), pointer;
+}
+a:link{
+  cursor:  pointer;
+}

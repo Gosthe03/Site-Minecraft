@@ -3,6 +3,7 @@ body {
   -webkit-background-size: cover; 
   background-size: cover;
   margin: 0%;
+  cursor: url('sword.cur'), pointer;
 }
 
 .baretop{
@@ -61,4 +62,23 @@ p {
 li {
 font-family: 'Noto Sans';
 
+}
+
+img{
+  cursor: url('pickaxe.cur'), pointer;
+}
+a:link{
+  cursor:  pointer;
+}
+
+.px{
+  width: 150px;
+  height: 150px; 
+  padding-left: 20px;
+}
+.popo{
+padding-top: 100px;
+  padding-left: 20px;
+  width: 150px;
+  height: 150px; 
 }

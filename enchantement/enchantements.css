@@ -36,18 +36,18 @@ body {
 #background{
   background-image: url(../images/roche.png);
   width: 200px;
-  height: 2000px;
+  height: 2000000px;
   float: left;
 }
 .ep{
-  padding-top: 500px;
+  padding-top: 2610px;
   padding-left: 20px;
   width: 150px;
   height: 150px; 
 }
 .ept{
   font-size: 25px;
-  padding: 3.5%;
+  padding: 3%;
   margin-left: auto;
   margin-right: auto;
   width: 600px;
@@ -61,7 +61,7 @@ body {
   padding: 3.5%;
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
+  width: 1000px;
   background-color: mediumslateblue;
   opacity: 0.8;
   border-radius: 20px;
@@ -75,3 +75,4 @@ body {
 #titre{
   text-align: center;
 }
+

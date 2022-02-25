@@ -3,8 +3,12 @@ body {
   -webkit-background-size: cover; 
   background-size: cover;
   margin: 0%;
+  cursor: url('sword.cur'), pointer;
 }
 
+img{
+  cursor: url('pickaxe.cur'), pointer;
+}
 
 .baretop{
   background-image: url(../images/blocterre.jpg);
@@ -36,25 +40,27 @@ body {
 #background{
   background-image: url(../images/roche.png);
   width: 200px;
-  height: 2000000px;
+  height: 6000px;
   float: left;
 }
 .ep{
-  padding-top: 2610px;
+  padding-top: 2625px;
   padding-left: 20px;
   width: 150px;
-  height: 150px; 
+  height: 150px;
+  
 }
 .ept{
   font-size: 25px;
   padding: 3%;
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
+  width: 800px;
   background-color: white;
   opacity: 0.8;
   border-radius: 20px;
-  text-align: left justify top;
+  text-align: center;
+  
 }
 #le{
   font-size: 25px;
@@ -76,3 +82,20 @@ body {
   text-align: center;
 }
 
+a:link{
+  cursor:  pointer;
+}
+.tt{
+  text-align: center;
+}
+#bo::selection {
+  background-color: lightgreen;
+}
+.ten{
+  width: 150px;
+  height: 150px; 
+  padding-left: 20px;
+}
+.en3{
+  text-align: center;
+}

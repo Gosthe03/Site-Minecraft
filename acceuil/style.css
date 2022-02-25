@@ -4,7 +4,7 @@ body {
   background-size: cover;
   padding: 0;
   margin: 0;
-  
+  cursor: url('../images/sword.cur'), pointer;
 }
 
 .header {
@@ -54,30 +54,28 @@ body {
    right: 200px;
    top: 300px;
    font-size: 20px;
-   
 }
 
 #body::selection {
-  background-color: lightgreen;
+ background-color: lightgreen;
 }
-
 
 #en {
   float: left;
   position: absolute;
-  left: 210px;
-  top: 800px;
+  left: 310px;
+  top: 670px;
   min-width: 7em;
-  width: 500px;
+  width: 550px;
   
 }
 
 #livre {
   float: left;
   position: absolute;
-  left: 400px;
-  top: 880px;
-  min-width: 7em;
+  left: 500px;
+  top: 750px;
+  width: 140px;
 }
 
 #livre:hover {
@@ -88,30 +86,30 @@ body {
 #pot {
   float: right;
   position: absolute;
-  right: 230px;
-  top: 800px;
+  right: 380px;
+  top: 670px;
   min-width: 7em;
-  width: 300px;
+  width: 330px;
 }
 
 #potion {
   float: right;
   position: absolute;
-  right: 320px;
-  top: 870px;
+  right: 470px;
+  top: 740px;
   min-width: 7em;
-  width: 130px;
+  width: 160px;
 }
 
 #potion:hover {
-  border: solid 2px rgb(0, 255, 213);
+  border: solid 2px cyan;
   border-radius: 15px;
 }
 
 #roche {
   background-image: url(../images/roche.png);
   width: 127px;
-  height: 2000px;
+  height: 100%;
   position: absolute;
   left: 0px;
   top: 173px;
@@ -120,18 +118,18 @@ body {
 #roche2 {
     background-image: url(../images/roche.png);
     width: 127px;
-    height: 2000px;
+    height: 100%;
     position: absolute;
     right: 0px;
     top: 173px;
     
 }
 
-#footer {
-  color: rgb(0, 0, 0);
+#contactus {
+  color: black;
   position: absolute;
   right: 0px;
-  top: 550px;
+  top: 500px;
   height: 600px;
   width: 120px;
   padding: 2px;
@@ -147,4 +145,16 @@ h2 {
 
 #logo {
   width: 80px;
+}
+
+#contact {
+  border: solid 2px black;
+}
+
+img{
+  cursor: url('../images/pickaxe.cur'), pointer;
+}
+
+a:link{
+  cursor:  pointer;
 }

@@ -23,13 +23,20 @@ img{
   height :100px;
 }
 
+#hi{
+  margin-top: 1.5%;
+  width: 100px;
+  height :100px;
+  padding-left: 50px; 
+}
+
 #p{
   width: 100px;
   height : 100px;
 }
 
 #e {
-  padding-left: 210px;
+  padding-left: 260px;
 }
 
 #r{
@@ -43,6 +50,14 @@ img{
   height: 6000px;
   float: left;
 }
+
+#backgrounde{
+  background-image: url(../images/roche.png);
+  width: 200px;
+  height: 6000px;
+  float: right;
+}
+
 .ep{
   padding-top: 2625px;
   padding-left: 20px;
@@ -98,4 +113,13 @@ a:link{
 }
 .en3{
   text-align: center;
+}
+
+#eni{
+  opacity: 100%;
+  text-align: center;
+}
+.imgte{
+  width: 499px;
+  height: 390px; 
 }

@@ -47,15 +47,22 @@ img{
 #background{
   background-image: url(../images/roche.png);
   width: 200px;
-  height: 6000px;
+  height: 5300px;
   float: left;
 }
 
 #backgrounde{
   background-image: url(../images/roche.png);
   width: 200px;
-  height: 6000px;
+  height: 1400px;
   float: right;
+}
+
+#backgroundee{
+  background-image: url(../images/roche.png);
+  width: 200px;
+  height: 1400px;
+  float: left;
 }
 
 .ep{
@@ -83,11 +90,23 @@ img{
   margin-left: auto;
   margin-right: auto;
   width: 1000px;
-  background-color: rgb(201, 255, 170);
+  background-color: rgba(50, 143, 146, 0.836);
   border-radius: 20px;
   text-align: left justify top;
   
 }
+#lee{
+  font-size: 25px;
+  padding: 3.5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  background-color: rgba(144, 97, 199, 0.521);
+  border-radius: 20px;
+  text-align: left justify top;
+  
+}
+
 .px{
   width: 150px;
   height: 150px; 

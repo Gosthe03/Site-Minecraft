@@ -36,7 +36,9 @@ img{
 }
 
 #e {
-  padding-left: 260px;
+  padding-bottom: 120px;
+  font-family: 'Noto Sans';
+  padding-left: 180px;
 }
 
 #r{
@@ -143,3 +145,4 @@ a:link{
   height: 390px; 
   opacity: 100%;
 }
+
